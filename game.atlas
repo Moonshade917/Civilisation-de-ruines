@@ -1,9 +1,8 @@
 game.png
-size: 300,100
+size: 300,300
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-
 ImprovementIcons/Ruines Magiques
   rotate: false
   xy: 0, 0
@@ -11,7 +10,6 @@ ImprovementIcons/Ruines Magiques
   orig: 100, 100
   offset: 0, 0
   index: -1
-
 NationIcons/Civilisation ancienne
   rotate: false
   xy: 100, 0
@@ -19,7 +17,6 @@ NationIcons/Civilisation ancienne
   orig: 100, 100
   offset: 0, 0
   index: -1
-
 UnitIcons/Chercheur de ruines
   rotate: false
   xy: 200, 0
