@@ -1,4 +1,5 @@
 game.png
+size: 300,100
 format: RGBA8888
 filter: Nearest,Nearest
 repeat: none
