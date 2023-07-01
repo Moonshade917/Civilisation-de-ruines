@@ -1,0 +1,17 @@
+[
+	{
+		"name": "Chercheur de ruines",
+		"unitType": "Helicopter",
+		"uniqueTo": "Civilisation ancienne",
+		"movement": 5,
+		"strength": 5,
+		"replaces" : "Warrior",
+		"cost": 40,
+		"promotions" : ["Ignore terrain cost"],
+		"uniques": [
+			"Provides a random bonus when entered",
+			"[+400]% Strength <vs [Barbarian] units>",
+			"Can build [Ruines Magiques] improvements on tiles"
+		]
+	}
+]

@@ -1,0 +1,110 @@
+[
+	// Culture
+	{
+		"name": "shared cultural inspiration",
+		"notification": "Les villageois capturés nous ont révéler leurs secrets culturels!! (+[cultureAmount] culture)",
+		"uniques": ["Gain [75]-[100] [Culture]","Only available <after [70] turns>"],
+		"color": "#cf8ff7"
+	},
+	{
+		"name": "adopt foreign policy",
+		"notification": "Nous avons découvert un écrit d'un gouvernement antique nous pourrion essayer de l'exploiter a nos fin!",
+		"uniques": ["Free Social Policy", "Only available <before [70] turns>"],
+		"color": "#cf8ff7"
+	},
+	
+	// Science
+	{
+		"name": "discover a research note",
+		"notification": "Nous avons découvert les notes d'un ancien scientifique! (+[scienceAmount] science)",
+		"uniques": ["Gain [80]-[100] [Science]", "Only available <before [50] turns>"],
+		"color": "#7f7fff"
+	},
+	{
+		"name": "stolen technology",
+		"notification": "Nous avons réussis a prendre le contole de la technologie volée! (+[scienceAmount] science)",
+		"uniques": ["Gain [100]-[150] [Science]", "Only available <after [50] turns>"],
+		"color": "#7f7fff"
+	},
+	
+	// Gold
+	{
+		"name": "a stash of gold",
+		"notification": "Nous avons trouver une bourse de [goldAmount] pièces dans les ruines!",
+		"uniques": ["Gain [150]-[250] [Gold]"],
+		"color": "#ffeb7f"
+	},
+	{
+		"name": "hit a jackpot",
+		"notification": "Jackpot! (+1000 gold)",
+		"uniques": ["Gain [1000] [Gold]", "Only available <after [75] turns>"],
+		"color": "#ffeb7f"
+	},
+	
+	// Faith
+	{
+		"name": "a praying priest",
+		"notification": "Un prêtre prie pour vous! (+[faithAmount] faith)",
+		"uniques": ["Hidden when religion is disabled", "Gain [100]-[250] [Faith]", "Only available <after founding a Pantheon>",
+					"Only available <after [40] turns>"],
+		"color": "#CDDDF4"
+	},
+	{
+		"name": "a wandering oracle",
+		"notification": "Un oracle vous devoile votre futur! (+[faithAmount] faith)",
+		"uniques": ["Hidden when religion is disabled", "Gain [250]-[350] [Faith]", "Only available <after founding a Pantheon>",
+					"Only available <after [60] turns>"],
+		"color": "#CDDDF4"
+	},
+	
+	// Population
+	{
+		"name": "accepted immigrants (adds 3 population to a city)",
+		"notification": "Une famille d'immigrant a été trouver dans les ruines! Population ajouté à [cityName].",
+		"uniques": ["[+3] population [in capital]", "Only available <after [40] turns>"],
+		"color": "#81c784"
+	},
+	
+	// Native
+	{
+		"name": "free a general",
+		"notification": "Nous avons retrouver le général!",
+		"uniques": ["Free [Great General] found in the ruins", "Only available <after [20] turns>"],
+		"color": "#e89220"
+		"excludedDifficulties": ["Immortal","Deity"]
+	},
+	{
+        "name": "save a merchant",
+        "notification": "Nous avons réussi a sauvé un [Great Merchant]!",
+        "uniques": ["Free [Great Merchant] found in the ruins"],
+		"color": "#e89220"
+    },
+	
+	// Military
+	{
+		"name": "hell training",
+		"notification": "Votre unité a suvie un entrainement intensif dans une tribu sauvage!",
+		"uniques": ["This Unit gains [30] XP", "Only available <before [30] turns>"],
+		"color": "#20afe8"
+	},
+	{
+        "name": "advanced weaponry for your explorer",
+        "notification": "Notre unité a trouver un armement avancé dans les ruines!",
+        "uniques": ["This Unit upgrades for free including special upgrades"],
+		"color": "#20afe8"
+    },
+	{
+        "name": "levied spearman",
+        "notification": "un jeune [Spearman] nous a rejoins!",
+        "uniques": ["Free [Spearman] appears", "Only available <after [30] turns> <before [150] turns>"],
+		"color": "#20afe8"
+    },
+	
+	// Triggerable
+	{
+		"name": "into era of greatness",
+		"notification": "Resoudre ce problème crucial vous a mené a un age d'or!",
+		"uniques": ["Empire enters golden age", "Only available <after [50] turns>"],
+		"color": "#cf8ff7"
+	}
+]

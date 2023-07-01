@@ -1,0 +1,15 @@
+[
+	{ 
+		"name": "Barbarian encampment", 
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Unpillagable", "Provides a random bonus when entered", "Unbuildable"],
+        "civilopediaText": [{"text":"Foyer de barbare peu civilisé qui fait parfois apparaitre d'affreuse unitée"}]
+	},
+	{
+		"name" : "Ruines Magiques",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniqueTo" : "Civilisation ancienne",
+		"turnsToBuild" : 1,
+		"uniques" : ["Unpillagable", "Provides a random bonus when entered"]
+	}
+]
